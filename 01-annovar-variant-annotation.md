@@ -1,10 +1,3 @@
-# 使用ANNOVAR注释人群变异
-
-作者 · 不加酵母的面团（DoughWithoutYeast）
-
-原发表于 2026-09-16 · [博客园原文](https://www.cnblogs.com/DoughWithoutYeast/p/22993924)
-
-原文更新于 2026-10-26
 
 ## 1\. 介绍ANNOVAR
 
@@ -91,7 +84,7 @@ echo "Finished processing all VCF files."
 
 将上方的脚本中：`vcf_dir`和`output_dir`两个变量修改成你自己的vcf文件以及想要的avinput文件的存放路径，并保存成`.sh`文件，使用`bash`运行，就可以遍历`vcf_dir`内的所有VCF文件，将他们各自转成avinput文件，并保存在`avinput`目录下面
 
-### 4.2 true 注释
+### 4.2 真·注释
 
 接下来就可以进行真正的注释啦
 
